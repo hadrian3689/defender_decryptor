@@ -2,7 +2,7 @@
 Defender uses RC4 to encrypt quarantied files. It uses a hardcoded RC4 key.
 
 # Inspiration
-Story by Zam: https://blog.khairulazam.net/2023/12/12/extracting-quarantine-files-from-windows-defender/ 
+Story by Zam: https://blog.khairulazam.net/2023/12/12/extracting-quarantine-files-from-windows-defender/   
 Story by Jon Glass: https://jon.glass/blog/quarantines-junk/#:~:text=Here%20is%20the%20relevant%20chuck%20of%20their%20code%20that%20I%20bastardized%20for%20this%20blog%20post
 
 ## Getting Started
