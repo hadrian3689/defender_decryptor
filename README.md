@@ -8,7 +8,7 @@ Story by Jon Glass: https://jon.glass/blog/quarantines-junk/#:~:text=Here%20is%2
 ## Getting Started
 This is best used with Python 2
 ```
-python2 decryptor.py
+python2 decryptor.py filename
 ```
 
 ## Disclaimer

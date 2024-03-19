@@ -1,4 +1,5 @@
 import os
+import sys
 import struct
 import hashlib
 from binascii import crc32
@@ -83,4 +84,9 @@ def mse_unquarantine(f):
         with open("unquar.bin", "wb") as f:
             f.write(outdata[headerlen:])
 
-mse_unquarantine("AEB49B27BE00FB9EFCD633731DBF241AC94438B7")
+if __name__=="__main__":
+    try:
+        file = sys.argv[1]
+        mse_unquarantine(file)
+    except IndexError:
+        print("Usage: python2 decryptor.py <filename>")
